@@ -1,11 +1,6 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, styles } from 'react-native';
-import LoginScreen from './loginScreen';
+import React from 'react';
+import BottomTabNavigator from './navigation/BottomTabNavigator';
 
 export default function App() {
-  return (
-    <View>
-      <LoginScreen />
-    </View>
-  );
+  return <BottomTabNavigator />;
 }
